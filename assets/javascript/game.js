@@ -62,7 +62,7 @@ $( document ).ready(function(){
       console.log("New userTotal= " + userTotal);
       $('#finalTotal').text(userTotal); 
           if (userTotal == random){
-            youWin();
+            youWon();
           }
           else if ( userTotal > random){
             youLose();
@@ -74,7 +74,7 @@ $( document ).ready(function(){
       $('#finalTotal').text(userTotal);
   //sets win/lose conditions
             if (userTotal == random){
-            youWin();
+            youWon();
           }
           else if ( userTotal > random){
             youLose();
@@ -86,7 +86,7 @@ $( document ).ready(function(){
       $('#finalTotal').text(userTotal); 
         
             if (userTotal == random){
-            youWin();
+            youWon();
           }
           else if ( userTotal > random){
             youLose();
